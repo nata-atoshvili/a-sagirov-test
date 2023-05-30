@@ -1,0 +1,121 @@
+body {
+    min-width: 1920px;
+}
+
+.hero {
+    background: url(src/assets/hero.jpg) no-repeat 50% 0 #000000;
+    height: 660px;
+}
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-top: 135px;
+}
+
+.hero__title {
+    text-transform: uppercase;
+    font-size: 58px;
+    line-height: 1;
+}
+
+.hero__description {
+    font-size: 25px;
+}
+
+.hero__button {
+    background: url(src/assets/hero-button.png) no-repeat 0 0;
+    width: 210px;
+    height: 65px;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 67px;
+    margin-left: -15px;
+}
+
+.hero__left {
+    margin-top: -20px;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 390px;
+    /* margin: -5px; */
+    margin-right: -40px;
+}
+
+.list__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 185px;
+    height: 185px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 18px;
+    margin: 5px;
+    flex: 0 0 auto;
+    background: #ffffff1a;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: border-color 0.2s ease;
+}
+
+.list__item:hover {
+    border-color: #ffffff20;
+}
+
+.list__title {
+    padding-top: 15px;
+    line-height: 1;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.list__title--small {
+    font-size: 20px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #ffffff1a;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 910px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: block;
+    width: 316px;
+    height: 100px;
+    background: url(src/assets/logo.png) no-repeat 50%;
+}
+
+.nav {
+    margin-right: -260px;
+}
+
+.nav__item {
+    margin-left: 40px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease, color 0.2s ease;
+    padding-bottom: 7px;
+}
+
+.nav__item:hover {
+    color: #b1b1b1;
+    border-color: #b1b1b1;
+}
